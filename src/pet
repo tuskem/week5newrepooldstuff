@@ -1,0 +1,18 @@
+const MIN_HUNGER = 0;
+const MAX_HUNGER = 10;
+const MIN_FITNESS = 0;
+const MAX_FITNESS = 10;
+const MIN_AGE = 0;
+const MAX_AGE = 100;
+const DEATH_MSG = 'In a better place now.';
+
+function Pet(name) {
+        this.name = name;
+        this.age = MINIMUM_AGE;
+        this.hunger = MINIMUM_HUNGER;
+        this.fitness = MAXIMUM_FITNESS;       
+};
+
+
+
+module.exports = Pet;
